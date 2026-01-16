@@ -3,6 +3,8 @@ import plotly.express as px
 from dash import Dash, html, dcc
 from matplotlib.pyplot import title
 
+# Tudo reconfigurado e funcionando 100%
+
 df = pd.read_csv('ecommerce_estatistica.csv') # Lendo arquivo para criação do DF
 
 def cria_graficos(df):
